@@ -71,3 +71,12 @@ INSERT INTO tb_unidade_comercial(sigla, descricao) VALUES ('L', 'Litro');
 INSERT INTO tb_unidade_comercial(sigla, descricao) VALUES ('ML', 'Mililitro');
 INSERT INTO tb_unidade_comercial(sigla, descricao) VALUES ('PA', 'A definir');
 INSERT INTO tb_unidade_comercial(sigla, descricao) VALUES ('UN', 'Unidade');
+
+INSERT INTO tb_estabelecimento(nome,cnpj) VALUES ('Supermercados Guanabara','33130543000182');
+
+INSERT INTO tb_endereco(logradouro,bairro,cep,numero,complemento) VALUES ('Avenida Teixeira de Castro', 'Bonsucesso','21040010','90','N/A');
+
+INSERT INTO tb_usuario(nome,email,data_nascimento,cpf,senha) VALUES ('Adriano Abreu','adriano.luis.machado2013@hotmail.com','1992-08-27','12345678901','123456');
+
+INSERT INTO tb_produto(descricao,umidade,kcal,kj,proteina,lipideos,colesterol,idrato,alimentar,cinzas,calcio,magnesio,manganes,fosforo,ferro,sodio,potassio,cobre,zinco,retinol,re,rae,tiamina,riboflavina,piridoxina,niacina,vitaminac,valor_unitario) VALUES ('Arroz, integral, cozido',70.1,124,517,2.6,1.0,0,25.8,2.7,0.5,5,59,0.63,106,0.3,1,75,0.02,0.7,0,0,0,0.08,0,0.08,0,0,8.44);
+
